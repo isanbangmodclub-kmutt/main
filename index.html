@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ชมรมศิลปวัฒนธรรมอีสาน มจธ. | Isan Bangmod Club</title>
+    <meta name="description" content="พื้นที่รวบรวมและจัดแสดงผลงานของชมรมศิลปวัฒนธรรมอีสาน มหาวิทยาลัยพระจอมเกล้าธนบุรี (ชมรมอีสานบางมด)">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Phosphor Icons (for social icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Isan Bangmod Logo" class="logo-img">
+                <span class="logo-text">Isan<span class="highlight">Bangmod</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">หน้าแรก</a></li>
+                <li><a href="#about">เกี่ยวกับเรา</a></li>
+                <li><a href="#showcase">ผลงาน</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">ศิลปวัฒนธรรม<br><span class="highlight">อีสานบางมด</span></h1>
+            <p class="hero-subtitle">สืบสานตำนานศิลป์ แผ่นดินถิ่นอีสาน สู่ลานพระจอมเกล้าฯ</p>
+            <a href="#showcase" class="btn btn-primary">ชมผลงานของเรา</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="ph ph-caret-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">เกี่ยวกับ<span class="highlight">เรา</span></h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text fade-in">
+                    <h3>ชมรมศิลปวัฒนธรรมอีสาน</h3>
+                    <p>มหาวิทยาลัยพระจอมเกล้าธนบุรี (KMUTT)</p>
+                    <br>
+                    <p>เราคือกลุ่มนักศึกษาที่หลงใหลในศิลปวัฒนธรรมของภาคอีสาน มุ่งมั่นที่จะอนุรักษ์ สืบสาน และเผยแพร่ความงดงามของประเพณี ดนตรี และการแสดงพื้นบ้านให้เป็นที่รู้จักอย่างกว้างขวาง</p>
+                    <p>ผ่านการจัดกิจกรรม นิทรรศการ และการแสดงต่างๆ ทั้งภายในและภายนอกมหาวิทยาลัย เพื่อเชื่อมโยงคนรุ่นใหม่กับรากเหง้าทางวัฒนธรรมอันทรงคุณค่า</p>
+                </div>
+                <div class="about-stats fade-in delay-1">
+                    <div class="stat-card">
+                        <i class="ph ph-users-three"></i>
+                        <h4>สมาชิก</h4>
+                        <p>นักศึกษาปัจจุบันที่ร่วมอุดมการณ์</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="ph ph-music-notes"></i>
+                        <h4>การแสดง</h4>
+                        <p>ดนตรีและการรำพื้นบ้านอีสาน</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="ph ph-star"></i>
+                        <h4>ผลงาน</h4>
+                        <p>การแสดงโชว์และกิจกรรมตลอดปี</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Gallery Section -->
+    <section id="showcase" class="showcase section dark-bg">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Showcase <span class="highlight">Gallery</span></h2>
+                <p class="section-subtitle">ประมวลภาพกิจกรรมและการแสดงที่ผ่านมา</p>
+                <div class="divider center"></div>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-container fade-in">
+                <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+                <button class="filter-btn" data-filter="performance">การแสดง</button>
+                <button class="filter-btn" data-filter="music">ดนตรี</button>
+                <button class="filter-btn" data-filter="activity">กิจกรรม</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item performance fade-in">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1549681146-24ba0da2840d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="การแสดงฟ้อนรำ">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">การแสดงฟ้อนรำ</h3>
+                            <p class="gallery-desc">งานประเพณีบุญผะเหวด</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item music fade-in delay-1">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="วงดนตรีพื้นบ้าน">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">วงดนตรีโปงลาง</h3>
+                            <p class="gallery-desc">การบรรเลงเครื่องดนตรีอีสาน</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item activity fade-in delay-2">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="กิจกรรมรับน้อง">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">กิจกรรมรับน้องใหม่</h3>
+                            <p class="gallery-desc">ผูกข้อต่อแขน ต้อนรับน้องสู่บ้านอีสาน</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item performance fade-in">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1469598614039-ccfeb0a21111?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="การแสดงบนเวทีใหญ่">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">การแสดงบนเวทีใหญ่</h3>
+                            <p class="gallery-desc">งานนิทรรศการมหาลัย</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item activity fade-in delay-1">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="นิทรรศการ">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">นิทรรศการวัฒนธรรม</h3>
+                            <p class="gallery-desc">จัดแสดงผ้าไหมและเครื่องจักสาน</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item music fade-in delay-2">
+                    <div class="gallery-img-container">
+                        <img src="https://images.unsplash.com/photo-1525926477800-7a3b10316ac6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="ซ้อมดนตรี">
+                        <div class="gallery-overlay">
+                            <h3 class="gallery-title">การซ้อมดนตรี</h3>
+                            <p class="gallery-desc">เตรียมความพร้อมก่อนการแสดงจริง</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social / Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-box fade-in">
+                <h2 class="section-title text-center">ติดตาม<span class="highlight">พวกเรา</span></h2>
+                <p class="text-center subtitle">อัปเดตข่าวสาร กิจกรรม และผลงานใหม่ๆ ของชมรมได้ที่ช่องทางต่อไปนี้</p>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61591634901380" target="_blank" class="social-card facebook">
+                        <i class="ph ph-facebook-logo"></i>
+                        <span>Facebook</span>
+                        <small>ชมรมศิลปวัฒนธรรมอีสาน มจธ.</small>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/isanbangmodclub.kmutt/" target="_blank" class="social-card instagram">
+                        <i class="ph ph-instagram-logo"></i>
+                        <span>Instagram</span>
+                        <small>@isanbangmodclub.kmutt</small>
+                    </a>
+                    
+                    <a href="https://www.tiktok.com/@isanbangmod.kmutt" target="_blank" class="social-card tiktok">
+                        <i class="ph ph-tiktok-logo"></i>
+                        <span>TikTok</span>
+                        <small>@isanbangmod.kmutt</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo logo">
+                <img src="assets/logo.png" alt="Isan Bangmod Logo" class="logo-img">
+                <span class="logo-text">Isan<span class="highlight">Bangmod</span></span>
+            </div>
+            <p>&copy; 2026 ชมรมศิลปวัฒนธรรมอีสาน มหาวิทยาลัยพระจอมเกล้าธนบุรี. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
